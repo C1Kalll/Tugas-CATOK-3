@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    background-color: #f9f4ef;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8c7851;
+}
+nav a{
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #fffffe;
+}
+nav a:hover{
+    color: #020826;
+}
+
+.container{
+    width: 80%;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 17px;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 16px 16px 30px -6px rgba(0,0,0,0.61);
+}
+.container .biodata{
+    display: flex;
+
+}
+
+.container .biodata img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.container .biodata .datadiri{
+    margin-top: 60px;
+}
+.datadiri{
+    font-size: 15px;
+    text-align: justify;
+    margin-right: 20px;
+}
+.container .about{
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.container .about p{
+    font-size: 18px;
+    text-align: justify;
+    margin-right: 20px;
+}
